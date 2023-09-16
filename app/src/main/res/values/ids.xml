@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tg" type="id" />
+    <item name="switch1" type="id" />
+    <item name="switch2" type="id" />
+    <item name="switch3" type="id" />
+    <item name="switch4" type="id" />
+    <item name="switch5" type="id" />
+    <item name="switch6" type="id" />
+    <item name="switch7" type="id" />
+    <item name="fbutton1" type="id" />
+    <item name="fbutton2" type="id" />
+    <item name="fbutton3" type="id" />
+    <item name="fbutton4" type="id" />
+    <item name="fbutton5" type="id" />
+    <item name="fbutton6" type="id" />
+    <item name="fbutton7" type="id" />
+</resources>

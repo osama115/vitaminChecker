@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".question"
+    android:background="@drawable/ic_wave__9_"
+    tools:visibility="visible">
+    <include layout="@layout/activity_bar8"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Night Blindness"
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+
+        />
+
+    <Switch
+        android:id="@+id/switch23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Getting Sick or Infected"
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+        />
+
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heavy menstrual periods."
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+        />
+
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iron Deficiency Anemia"
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+        />
+
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breathless and Dizziness"
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+        />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WeakenImmuneFunction"
+        android:textSize="25dp"
+        android:background="@drawable/s_back"
+        android:layout_margin="5dp"
+        />
+
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DifficultWithCoordination"
+        android:textSize="25dp"
+       android:layout_margin="5dp"
+        android:background="@drawable/s_back"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#8BC34A"
+            android:text="vitamin A"
+            android:visibility="gone"
+
+            />
+
+        <Button
+            android:id="@+id/fbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFEB3B"
+            android:text="vitamin D"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#BD97CB"
+            android:text="vitamin K"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fbutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#009688"
+            android:text="vitamin C"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFC107"
+            android:text="vitamin B12"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FF9800"
+            android:text="vitamin B6"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fbutton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/cust_btn"
+        android:backgroundTint="#B655C8"
+        android:text="vitamin E"
+        android:visibility="gone" />
+
+
+</LinearLayout>

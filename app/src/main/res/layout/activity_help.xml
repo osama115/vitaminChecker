@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".help">
+    <include layout="@layout/activity_bar8"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HELP"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:paddingTop="10dp"
+        android:text="The information provided in this application. It must take the place of medical advice and you must talk to your healthcare providers(doctor,registered dietition) about any questions you have relating to vitamin consumption.
+1 IU retinol = 0.3 mcg RAE,
+at least 0.15 mcg vitamin B12 per 100 kcal
+and (mg)milligram
+Connect me
+it should be noted that whether or not to send me your feedback or bug report is acompletely voluntary initiave upon your own decision. if you have concern about your Pll being misused, or if you want further information about our privcy policy and what it means please feel free to email me at osamahamed793@gmail.com ,i will endeavor to provide clear answers to your question in a timely manner."
+        android:textSize="20dp" />
+</RelativeLayout>

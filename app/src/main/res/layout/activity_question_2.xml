@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".question_2"
+    android:background="@drawable/ic_wave__9_"
+    tools:visibility="visible">
+    <include layout="@layout/activity_bar8"/>
+
+
+        <Switch
+            android:id="@+id/switch11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dry Skin or Dry eyes"
+            android:textSize="25dp"
+            android:background="@drawable/s_back"
+            android:layout_marginBottom="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="fill"
+            />
+
+
+
+        <Switch
+            android:id="@+id/switch12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hair Loss"
+            android:textSize="25dp"
+            android:background="@drawable/s_back"
+            android:layout_margin="5dp"
+            android:layout_gravity="fill"
+            />
+
+
+        <Switch
+            android:id="@+id/switch13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ExcessiveBleedingFromWoundPunctures"
+            android:textSize="25dp"
+            android:background="@drawable/s_back"
+            android:layout_margin="5dp"
+            android:layout_gravity="fill"
+            />
+
+
+        <Switch
+            android:id="@+id/switch14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spoon-Shaped Fingernails With Red Spots or Lines"
+            android:textSize="25dp"
+            android:background="@drawable/s_back"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <Switch
+            android:id="@+id/switch15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pale or Jaundiced Skin"
+            android:textSize="25dp"
+            android:background="@drawable/s_back"
+            android:layout_margin="5dp"
+            android:layout_gravity="fill"
+            />
+
+        <Switch
+            android:id="@+id/switch16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cracked and Sore Lips"
+            android:textSize="25dp"
+            android:layout_gravity="fill"
+            android:background="@drawable/s_back"
+            android:layout_margin="5dp"
+            />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fbutton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#8BC34A"
+            android:shadowColor="#FFFFFF"
+            android:text="vitamin A"
+            android:visibility="gone"
+
+            />
+
+        <Button
+            android:id="@+id/fbutton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFEB3B"
+            android:text="vitamin D"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#BD97CB"
+            android:text="vitamin K"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fbutton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#009688"
+            android:text="vitamin C"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFC107"
+            android:text="vitamin B12"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbutton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FF9800"
+            android:text="vitamin B6"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

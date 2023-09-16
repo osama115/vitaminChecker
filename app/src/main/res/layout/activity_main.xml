@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ic_wave__11_"
+    android:paddingHorizontal="30dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:src="@drawable/top_back"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textColor="#DCE7008A"
+        android:textStyle="bold"
+        android:textSize="40dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Enter your email "
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="60dp"
+            android:background="@drawable/rectangle_field"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_mail"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:hint="Enter your password "
+            android:paddingVertical="15dp"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:paddingLeft="60dp"
+            android:background="@drawable/rectangle_field"
+            />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_lock"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_back"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You haven't acount?"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/signUptv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="#8E97FD"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

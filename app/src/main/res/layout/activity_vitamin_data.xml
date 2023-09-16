@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".vitamin_data"
+    android:background="@drawable/ic_wave__9_">
+    <include layout="@layout/activity_bar8"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#8BC34A"
+            android:text="vitamin A"
+
+
+            />
+
+        <Button
+            android:id="@+id/button112"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFEB3B"
+            android:text="vitamin D"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button113"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#BD97CB"
+            android:text="vitamin K"
+            />
+
+        <Button
+            android:id="@+id/button114"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#009688"
+            android:text="vitamin C"
+          />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button115"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FFC107"
+            android:text="vitamin B12"
+            />
+
+        <Button
+            android:id="@+id/button116"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/cust_btn"
+            android:backgroundTint="#FF9800"
+            android:text="vitamin B6"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cust_btn"
+        android:backgroundTint="#B655C8"
+        android:text="vitamin E"
+        android:layout_gravity="center"
+    />
+
+</LinearLayout>
